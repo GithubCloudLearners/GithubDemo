@@ -1,4 +1,6 @@
-## Git Hiddern Folder
+# **GIT w/GITHUB BASICS**
+
+## Git Hidden Folder
 There is a hidder folder called `.git` which tells your that our project is a get repo.
 
 If we wanted to created a git repo is a new project we create the folder and initialize that repo using `git init`
@@ -169,4 +171,44 @@ git log
 Push a repo to the remote origin
 ```
 git push
+```
+
+
+# **SOME GITHUB CLI BASICS**
+
+## Token
+We can check the default token of our codespace
+```sh
+gh auth token
+```
+
+But we can set a new token with especific permisions and expire date by
+
+```sh
+export GH_TOKEN="your_token"
+env | grep GH #Should return the token generated value
+gh auth token #Now must be change and return the token generated value
+```
+
+## Set defaul repo
+We can set our default repo by
+```sh
+gh repo set-default
+```
+
+## Checks issues
+```sh
+gh issue list
+```
+
+## Create an issue
+We can create a new issue by:
+```sh
+gh issue create --title "I found a bug" --body "Something do not work"
+```
+
+## Delete an issue
+We can delete an issue with it´s number id:
+```sh
+gh issue delete number_of_issue
 ```

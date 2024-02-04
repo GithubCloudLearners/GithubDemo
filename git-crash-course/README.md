@@ -77,12 +77,12 @@ List of branchs
 git branch
 ```
 
-Create new branch
+Create new branch (dev)
 ```sh
 git branch branch-name
 ```
 
-Checkout the branch
+Checkout the branch (dev)
 ```sh
 git checkout branch-name
 ```

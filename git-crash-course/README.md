@@ -72,6 +72,20 @@ Set global editor
 git config --global core.editor emacs
 ```
 ## Branchs
+List of branchs
+```sh
+git branch
+```
+
+Create new branch
+```sh
+git branch branch-name
+```
+
+Checkout the branch
+```sh
+git checkout branch-name
+```
 
 ## Remotes
 

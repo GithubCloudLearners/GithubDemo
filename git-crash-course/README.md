@@ -27,6 +27,40 @@ git clone https://github.com/AndresMPaws/GithubDemo.git
 cd GithubDemo
 ```
 
+### SSH
+
+
+```sh
+git clone git@github.com:AndresMPaws/GithubDemo.git
+cd GithubDemo
+```
+
+We will have to create our SSH rsa key pair
+```sh
+ssh-keygen -t rsa
+```
+And copy and paste de public key in github, getting it from
+```sh
+cat /your_directory/.ssh/id_rsa.pub
+```
+For test our connection run
+```sh
+ssh -T git@github.com
+```
+### CLI
+For installing on windows
+```sh
+gh repo clone AndresMPaws/GithubDemo
+winget upgrade --id GitHub.cli
+```
+
+We have to login using the CLI and clone the repo
+```sh
+gh auth login
+gh repo clone AndresMPaws/GithubDemo    
+```
+
+
 ## Commits
 When we want to commit code we can write git commit which will open up the commit edit message in editor of choice. 
 Make commit and commit messages without opening an editor

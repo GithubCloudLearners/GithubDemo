@@ -88,10 +88,39 @@ git checkout branch-name
 ```
 
 ## Remotes
-
+We can add remotes but often you will add remotes via upstream when adding a branch
+```sh
+git remote add ...
+git branch -u origin new-features
+```
 ## Stashing
+If we want to save a work in progress by add but without commiting it into the branch. We can "save" it by stashing. So we can bring it back by poping it
+
+```sh
+git add .
+git stash #"Save" our work in progress
+git stash pop #Bring it our work in progress back
+```
+The stash work in progress wi be put into a list of changes. 
+```sh
+git stash list
+```
+
+Another option is name our stash and bring back the last one
+```sh
+git add .
+git stash save name-of-stash
+git stash apply
+```
+
 
 ## Merging
+If we want to integrate the work (merge) developed in the branch dev into the main branch we do.
+
+```sh
+git checkout main
+git merge dev
+```
 
 ## Add
 When we want to staged changes that will be included in the commit

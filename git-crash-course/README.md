@@ -81,3 +81,15 @@ When you first install Git on a machine you are suppose to set up your name and 
 git config --config user.name "AndresMP"
 git config --config user.email "andresmunozpampillon@gmail.com"
 ```
+
+## Log
+Show recent git commits to the git tree
+```
+git log
+```
+
+## Push
+Push a repo to the remote origin
+```
+git push
+```

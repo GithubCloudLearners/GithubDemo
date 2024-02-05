@@ -89,6 +89,11 @@ Checkout the branch (dev)
 git checkout branch-name
 ```
 
+Create and checkout a branch in one line of code
+```sh
+git checkout -b branch-name
+```
+
 ## Remotes
 We can add remotes but often you will add remotes via upstream when adding a branch
 ```sh

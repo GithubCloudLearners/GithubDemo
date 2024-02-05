@@ -1,6 +1,6 @@
 export GH_USERNAME='AndresMPaws'
 
-export GH_TOKEN='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'
+export GH_TOKEN='your_token'
 
 export GH_IMAGE_NAME='hello-world'
 

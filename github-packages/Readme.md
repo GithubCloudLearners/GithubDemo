@@ -13,3 +13,5 @@ echo $GH_TOKEN | docker login ghcr.io -u $GH_USERNAME --password-stdin
 docker tag $GH_IMAGE_NAME:latest $GH_TAGNAME
 
 docker push $GH_TAGNAME
+
+LABEL org.opencontainers.image.source https://github.com/OWNER/REPO

@@ -1,10 +1,10 @@
 ---
-blank_issues_enabled: false
 name: Issue Request
-title: 'Issue request'
-about: Have a minor issue?  Please let us know. 
-labels: 'minor problem'
+about: Have a minor issue?  Please let us know.
+title: Issue request
+labels: minor problem
 assignees: ''
+
 ---
 
 # Describe the issue you have

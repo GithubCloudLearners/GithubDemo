@@ -3,7 +3,7 @@
 ---
 Github repo for practice!!
 
-## Subtitle
+## Subtitle tipe 2
 
 ---
 Will be more soon!!!!

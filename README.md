@@ -1,4 +1,17 @@
 # GithubDemo
+
+---
 Github repo for practice!!
 
-Will be more soon!!!
+## Subtitle tipe 2
+
+---
+
+### Subtitle tipe 3
+
+---
+
+Will be more soon!!!!
+ ;) 
+ ;)
+
